@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: #180532;
+    height: 13dvh;
+    width: 100dvw;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header div.logo{
+    
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    
+}
+header div.logo ul{
+    margin: 0px;
+    display: flex;
+    
+    flex-direction: column;
+    gap: 5px;
+    
+}
+header div.logo ul hr.hrLogo{
+    margin: 0px;
+    
+}
+header div.logo ul li, nav ul li{
+    list-style-type: none;
+    
+}
+nav ul{
+    display: flex;
+    align-items: flex-end;
+}
+nav ul li {
+    flex-grow: 5;
+    background-color: yellow;
+}
+header nav ul hr.seçãoLogon{
+    transform: rotate(90deg);
+    width: 50%;
+    height: 1%;
+    align-self: end;
+}
