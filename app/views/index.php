@@ -78,8 +78,9 @@
                 <li>Alertas de consistência para ajudar a se lembrar das tarefas</li>
                 <li>Entre outras funcionalidades que vão facilitar a organização do seu dia a dia...</li>
             </ul>
-            <button>Criar Conta!</button>
+            <button id="botaoCriarConta">Criar Conta!</button>
         </section>
     </main>
+    <script src="../../public/js/redirecionamento_criar_conta.js"></script>
 </body>
 </html>
