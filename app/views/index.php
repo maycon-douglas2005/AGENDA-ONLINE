@@ -23,6 +23,63 @@
                 <img src="../../public/img/agenda.png" alt="imagem de agenda meramente ilustrativa">
             </div>
         </section>
+
+        <section class="secaoBeneficios">
+            <h2>BENEFÍCIOS DE POSSUIR UMA AGENDA</h2>
+            <hr>
+            <p>Ter uma agenda pode te trazer inumeros beneficios, e entre eles estão:</p>
+            <section class="subSecaoTopicos">
+                <div class="topico">
+                    <h4>Organização das Tarefas</h4>
+                    <p>Uma agenda ajuda a manter todas as 
+                        tarefas e compromissos organizados 
+                        em um único lugar. Isso facilita a 
+                        visualização do que precisa ser feito 
+                        no dia, semana ou mês, garantindo que 
+                        nada importante seja esquecido.
+                    </p>
+                </div>
+                <div class="topico">
+                    <h4>Redução do Estresse</h4>
+                    <p>Saber que seus compromissos e prazos 
+                        estão registrados e organizados 
+                        proporciona tranquilidade. Uma agenda 
+                        reduz a ansiedade causada por tentar 
+                        lembrar tudo de cabeça.
+                    </p>
+                </div>
+                <div class="topico">
+                    <h4>Gestão de Tempo Mais Eficiente</h4>
+                    <p>Com uma agenda, é possível planejar 
+                        como distribuir o tempo entre as 
+                        atividades. Isso ajuda a evitar 
+                        desperdícios, aumenta a produtividade 
+                        e reduz a sensação de sobrecarga.
+                    </p>
+                </div>
+                <div class="topico">
+                    <h4>Acompanhamento de Metas e Projetos</h4>
+                    <p>Uma agenda permite registrar objetivos 
+                        e monitorar o progresso em direção a 
+                        eles. Isso ajuda a manter o foco e a 
+                        motivação para alcançar resultados.
+                    </p>
+                </div>
+            </section>
+        </section>
+
+        <section class="secaoCrieUmaConta">
+            <h2>CRIE UMA CONTA E TENHA ACESSO A TUDO</h2>
+            <hr>
+            <p>Ao criar uma conta você terá acesso á:</p>
+            <ul>
+                <li>Listagem personalizada de tarefas</li>
+                <li>Gráficos que mostram sua consistência na realização das tarefas</li>
+                <li>Alertas de consistência para ajudar a se lembrar das tarefas</li>
+                <li>Entre outras funcionalidades que vão facilitar a organização do seu dia a dia...</li>
+            </ul>
+            <button>Criar Conta!</button>
+        </section>
     </main>
 </body>
 </html>
