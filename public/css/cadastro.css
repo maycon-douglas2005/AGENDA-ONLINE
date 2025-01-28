@@ -1,0 +1,117 @@
+body {
+    margin: 0px;
+    font-family: inter;
+    color: white;
+}
+
+main {
+    display: flex;
+    height: 100dvh;
+    width: 100dvw;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+main section.painelDeCadastro{
+    
+    height: 60dvh;
+    width: 60dvw;
+    border-radius: 1em;
+    display: flex;
+}
+
+ /* SEÇAO SEJA BEM VINDO */
+main section.painelDeCadastro section.sejaBemVindo{
+    background-color: #2B4F81;
+    width: 35%;
+    height: 100%;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+main section.painelDeCadastro section.sejaBemVindo div.sejaBemVindo_Texto{
+    display: flex;
+    flex-direction: column;
+    
+}
+main section.painelDeCadastro section.sejaBemVindo div.sejaBemVindo_Texto h3{
+    align-self: center;
+}
+main section.painelDeCadastro section.sejaBemVindo div.sejaBemVindo_Texto p{
+    margin: 0 5px 0 20px;
+    
+}
+main section.painelDeCadastro section.sejaBemVindo div.jaPossuiConta{
+    display: flex;
+    flex-direction: column;
+}
+
+main section.painelDeCadastro section.sejaBemVindo div.jaPossuiConta h3{
+    align-self: center;
+}
+main section.painelDeCadastro section.sejaBemVindo div.jaPossuiConta button{
+    align-self: center;
+    border-radius: 1em;
+    border: 0px;
+    height: 50px;
+    width: 120px;
+    
+}
+
+main section.painelDeCadastro section.sejaBemVindo div.jaPossuiConta button:hover{
+    cursor: pointer;
+    box-shadow: 4px 4px 10px 1px;
+}
+
+
+
+
+
+
+/* SEÇÃO CAMPOS DE CADASTRO */
+
+main section.painelDeCadastro section.camposDeCadastro{
+    background-color: #F0F0F0;
+    width: 65%;
+    height: 100%;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section.painelDeCadastro section.camposDeCadastro h4{
+    color: black;
+}
+main section.painelDeCadastro section.camposDeCadastro form {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 75%;
+}
+
+main section.painelDeCadastro section.camposDeCadastro form input{
+    height: 40px;
+    background-color: #D9D9D9;
+    border: 0px;
+    padding: 5px;
+    font-size: 1.3em;
+}
+
+main section.painelDeCadastro section.camposDeCadastro form button {
+    border-radius: 1em;
+    border: 0px;
+    background-color: #2B4F81;
+    color: white;
+    height: 40px;
+    font-size: 1.2em;
+}
+
+main section.painelDeCadastro section.camposDeCadastro form button:hover {
+    box-shadow: 1px 1px 5px 1px black;
+    cursor: pointer;
+    
+}
