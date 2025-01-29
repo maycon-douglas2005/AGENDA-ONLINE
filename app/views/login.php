@@ -15,7 +15,7 @@
             <section class="bemVindoDeVolta">
                 <div class="bemvindo">
                     <h3>Seja bem-vindo de volta!</h3>
-                    <p>Venha e nos deixe te ajudar a 
+                    <p>Venha conosco e nos deixe te ajudar a 
                         organizar a sua rotina!
                     </p>
                 </div>
@@ -29,7 +29,11 @@
             <section class="preenchaSeusDados">
                 <h4>Preencha seus dados!</h4>
 
-                <form action=""></form>
+                <form action="../models/verificando_informações_de_login.php" method="POST">
+                    <input type="email" name="email" id="" placeholder="E-mail">
+                    <input type="password" name="senha" id="" placeholder="Senha">
+                    <button>Logar!</button>
+                </form>
             </section>
         </section>
     </main>

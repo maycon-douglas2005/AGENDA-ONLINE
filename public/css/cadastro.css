@@ -29,6 +29,7 @@ main section.painelDeCadastro section.sejaBemVindo{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    box-shadow: 1px 1px 5px 1px black;
 }
 
 main section.painelDeCadastro section.sejaBemVindo div.sejaBemVindo_Texto{
@@ -38,6 +39,7 @@ main section.painelDeCadastro section.sejaBemVindo div.sejaBemVindo_Texto{
 }
 main section.painelDeCadastro section.sejaBemVindo div.sejaBemVindo_Texto h3{
     align-self: center;
+    font-size: 1.35rem;
 }
 main section.painelDeCadastro section.sejaBemVindo div.sejaBemVindo_Texto p{
     margin: 0 5px 0 20px;
@@ -81,6 +83,7 @@ main section.painelDeCadastro section.camposDeCadastro{
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 1px 1px 5px 1px black;
 }
 
 main section.painelDeCadastro section.camposDeCadastro h4{
