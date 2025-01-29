@@ -30,9 +30,9 @@
             
             <section class="camposDeCadastro">
                 <h4>Preencha seus dados!</h4>
-                <form action="../controllers/recebendo_dados_de_cadastro.php" method="POST">
+                <form action="../models/cadastrando_no_bd.php" method="POST">
                     <input type="text" name="nome" id="" placeholder="Primeiro Nome">
-                    <input type="tel" name="celular" id="" placeholder="Celular">
+                    <input type="text" name="celular" id="" placeholder="Celular">
                     <input type="email" name="email" id="" placeholder="E-mail">
                     <input type="password" name="senha" id="" placeholder="Senha">
 

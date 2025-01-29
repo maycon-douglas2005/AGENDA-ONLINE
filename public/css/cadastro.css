@@ -56,13 +56,14 @@ main section.painelDeCadastro section.sejaBemVindo div.jaPossuiConta button{
     border-radius: 1em;
     border: 0px;
     height: 50px;
-    width: 120px;
-    
+    width: 70%;
+    font-size: 1.15em;
 }
 
 main section.painelDeCadastro section.sejaBemVindo div.jaPossuiConta button:hover{
     cursor: pointer;
     box-shadow: 4px 4px 10px 1px;
+    font-weight: bold;
 }
 
 
@@ -107,11 +108,11 @@ main section.painelDeCadastro section.camposDeCadastro form button {
     background-color: #2B4F81;
     color: white;
     height: 40px;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 main section.painelDeCadastro section.camposDeCadastro form button:hover {
     box-shadow: 1px 1px 5px 1px black;
     cursor: pointer;
-    
+    font-weight: bold;
 }
